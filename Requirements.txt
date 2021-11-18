@@ -1,0 +1,41 @@
+Modules (must) required -
+
+OpenCV
+Dlib (Cmake to Install Dlib if not installed)
+SciPy
+Imutils
+pygame
+
+
+
+Please note that if your system is giving you error for dlib no found/missing -
+
+Install MS Visual Studio from there install dependecies of Cmake from the Other Component tab.
+
+Then again run the install command for dlib from the Command Prompt i.e, "pip install dlib", this is work.
+
+And if the last doesn't work, you need to install Cmake expilicitly. PLEASE REFER TO THE STACKOVERFLOW ARTICLE WHICH IS EASILY ACCESIBLE WITH A SIMPLE GOOGLE SEARCH.
+
+
+
+
+This project comprise of three parts -
+
+Assets - This contains the details of the eyes. As how the algorithm calculates the eye whether if its open/close. This also shows the formula that has been used to calculate euclidean distance of the eyes.
+
+Models - Pre - made model of face recognition prepared using Deep Learning Algo. It is used to identify the region aroung the face. There are some drawbacks like it finds is quite hard to identify the eyes with glasses. But it won't restrict the program functioning.
+
+And the Main file - The main code for the project is written in this file.
+
+
+
+Project Details -
+
+This project is created using Pyhton 3.8 
+
+IDE used - Visual Studio Code as well as Visual Studio 2017
+
+External resources used - Model for face (.dat file) from Github
+		         stackoverflow.com
+		         github.com
+		         
