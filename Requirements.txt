@@ -1,10 +1,3 @@
-Modules (must) required -
-
-OpenCV
-Dlib (Cmake to Install Dlib if not installed)
-SciPy
-Imutils
-pygame
 
 
 
