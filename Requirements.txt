@@ -12,7 +12,7 @@ And if the last doesn't work, you need to install Cmake expilicitly. PLEASE REFE
 
 
 
-This project comprise of three parts -
+project comprise of three parts -
 
 Assets - This contains the details of the eyes. As how the algorithm calculates the eye whether if its open/close. This also shows the formula that has been used to calculate euclidean distance of the eyes.
 
